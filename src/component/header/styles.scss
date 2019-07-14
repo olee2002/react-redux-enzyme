@@ -1,12 +1,17 @@
 header{
    display: block;
-   width: 100%;
+   width: 100vw;
    margin: 0 auto;
-   padding: 0 10px;
+   padding: 10px;
    .wrap{
       display:block;
-      width:10%;
+      width:100%;
       margin:0 auto;
-      max-width: 380px;
+      padding: 0 10px;
+      // max-width: 380px;
+      .logo{
+         display: block;
+         width: 250px;
+      }
    } 
 }
